@@ -1,0 +1,41 @@
+@media only screen and (max-width: 1166px) {
+
+.main-nav li  a:link, .main-nav li  a:visited {
+   
+    font-size: 1rem;
+    
+}
+
+	
+}
+
+
+
+@media only screen and (max-width: 1500px) {
+
+h3,h4 {
+	font-size:.8rem;
+}
+.anlog {
+   
+    margin-right: .5rem;
+    
+}
+
+.logoe {
+    margin-left:2rem;
+}
+
+
+.span_1_of_4 {
+		width: 48%; 
+	}
+	
+
+}
+
+@media only screen and (max-width: 540px) {
+	.span_1_of_4 {
+		width: 100%; 
+	}
+}

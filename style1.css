@@ -1,0 +1,165 @@
+           /* GOOGLE us Font style */
+/* font-family: 'Titillium Web', sans-serif; */
+
+/*==============*/
+/* BASIC SETUP  */
+/*==============*/
+
+/* background: linear-gradient(to bottom, rgba(0,176,155,0.5),rgba(150,201,61,1)); */
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+	
+	
+}
+
+body{
+	font-family:'Titillium Web', sans-serif;
+	/* line-height:1.3rem; */
+	text-rendering: optimizelegibility;
+	
+}
+.row {
+	max-width:90rem;
+	margin:0 auto;
+	
+}
+
+section {
+	background: linear-gradient(to bottom, rgba(0,176,155,0.5),rgba(150,201,61,1)); 
+}
+
+.herro-text {
+	text-align:center;
+	color:red;
+	font-size:2rem;
+	text-transform:uppercase;
+	
+}
+
+
+.full-logoimg {
+	float:left;
+}
+.full-imgsize {
+	width:30rem;
+	height:auto;
+	border-radius:1rem;
+}
+.full-into-text {
+	padding:1rem;
+	overflow:hidden;
+	color:#fff;
+}
+.full2 .full-logoimg {
+	float:right;
+}
+.full4 .full-logoimg {
+	float:right;
+}
+.full6 .full-logoimg {
+	float:right;
+}
+.full8 .full-logoimg {
+	float:right;
+}
+
+.full11 .full-logoimg {
+	float:right;
+}
+
+.full13 .full-logoimg {
+	float:right;
+}
+
+.full15 .full-logoimg {
+	float:right;
+}
+
+.full17 .full-logoimg {
+	float:right;
+}
+.full8 .full-logoimg {
+	float:right;
+}
+.full8 .full-logoimg {
+	float:right;
+}
+.full19 .full-logoimg {
+	float:right;
+}
+.full22 .full-logoimg {
+	float:right;
+}
+.full24 .full-logoimg {
+	float:right;
+}
+/*==============================*/
+/*         footer   start      */
+/*=============================*/
+
+.full-footer{
+	background:#111111;
+	height:25rem;
+}
+
+.footer-text {
+	margin-top:5rem;
+	font-size:4rem;
+	color:#FBFEFF;
+	text-align:center;
+}
+.footer-home ul li {
+	display:inline-block;
+	text-align:center;
+	margin:2rem 0 2rem 1rem;
+}
+.footer-home {
+	text-align:center;
+}
+.footer-home ul li a{
+	text-decoration:none;
+	font-size:1.3rem;
+	color:#7E7F82;
+	text-transform:uppercase;
+}
+
+.foter-fontosam {
+	
+	/* letter-spacing:1rem; */
+	text-align:center;
+	font-size:1.6rem;
+	margin-top:2rem;
+	
+}
+.foter-fontosam a{
+	color:#B0DD86;
+	border:1px solid #B0DD86;
+	border-radius:50%;
+	padding:0.5rem 1.2rem;
+	margin:0 .6rem;	
+}
+.foter-fontosam a:hover{
+	background:#7f8c8d;
+}
+.footer-home a:hover{
+	color:#B0DD86;
+}
+.foter-textn p {
+	color:#4B4A4C;
+	font-family:'Titillium Web', sans-serif;
+	text-align:center;
+	margin-top:3rem;
+}
+.foter-textn span{
+	color:#B0DD86;
+}
+/*==============================*/
+/*         footer end           */
+/*=============================*/

@@ -1,0 +1,354 @@
+           /* GOOGLE us Font style */
+/* font-family: 'Titillium Web', sans-serif; */
+
+/*==============*/
+/* BASIC SETUP  */
+/*==============*/
+
+/* background: linear-gradient(to bottom, rgba(0,176,155,0.5),rgba(150,201,61,1)); */
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+html{
+	font-size:100%;
+	scroll-behavior: smooth;
+	
+	
+}
+
+body{
+	font-family:'Titillium Web', sans-serif;
+	/* line-height:1.3rem; */
+	text-rendering: optimizelegibility;
+	
+}
+ul li{
+	list-style-type:none;
+}
+
+/*=========================*/
+/*  RE USABLE COMPONENTS   */
+/*========================*/
+.row {
+	max-width:90rem;
+	margin:0 auto;
+	
+}
+h3,h4{
+	color:#fff;
+	font-weight:300;
+	
+	
+}
+h3, h4{
+	margin-bottom:.4rem;
+}
+/*============================*/
+/*  RE USABLE COMPONENTS end  */
+/*============================*/
+
+/* HEADER */
+
+header {
+	background:linear-gradient(rgba(191, 212, 47, 0.6),rgba(191, 212, 47, 0.6)),url(back1.JPG);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: cneter center;
+	background-attachment:fixed;
+	height:100vh;	
+	position:relative;
+}
+.logoe {
+	height:3.5rem;
+	width:auto;
+	margin-top:2rem;
+	float:left;
+	border-radius:50%;
+}
+/* main-nav */
+ .main-nav {
+	 float:right;
+	 margin-top:2rem;
+ }
+.main-nav li {
+	display:inline-block;
+	margin-left:2rem;
+}
+
+.main-nav li  a:link,
+ .main-nav li  a:visited {
+	 color:#2d3436;
+	 text-decoration:none;
+	 text-transform:uppercase;
+	 padding:.6rem 1rem;
+	 border-radius: .3rem; 
+	 display:inline-block;
+	 font-size:1.3rem;
+	 transition:.3s;
+	 font-weight:600;
+ }
+  .main-nav li:hover  a:link,
+  .main-nav li:hover a:visited {
+	  background:rgba(191, 212, 47, 0.7);
+	  
+  }
+  
+.family-text {
+	 position:absolute;
+	 top:50%;
+	 left:50%;
+	 transform:translate(-50%,-50%);
+	 text-align:center;
+}
+  /* main-nav end */
+  
+  
+/*==============================*/
+/*        Short-intro start     */
+/*==============================*/
+
+  section {
+	background:linear-gradient(rgba(191, 212, 47, 0.3),rgba(191, 212, 47, 0.3)),url(bad1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: cneter center;
+	background-attachment:fixed;
+	
+}
+.na {
+	overflow:hidden;
+}
+.na {
+	width:50rem;
+	height:130px;
+	
+}
+.ibrahim {
+	float:left;
+	
+}
+.efty h3{
+	margin-top:1rem;
+}
+
+.logopic {
+	width:6rem;
+	height:7rem;
+	border-radius:50%;
+	margin-right:1rem;
+}
+.nanu {
+	float:left;
+}
+.logopic1 {
+	width:6rem;
+	height:7rem;
+	border-radius:50%;
+	margin-right:1rem;
+}
+
+/* .Short-intro { */
+	/* margin-left:20rem; */
+/* } */
+ .anlog{
+	width:6rem;
+	height:7rem;
+	border-radius:50%;
+	margin-right:1rem;
+	float:left;
+	/* margin-bottom:1rem; */
+	overflow:hidden;
+}
+.hello-text{
+	text-align:center;
+	color:#fff;
+	font-size:2rem;
+	margin:2rem 2rem;
+	text-transform:uppercase;
+	
+}
+.bg-color {
+	background: linear-gradient(to bottom, rgba(0,176,155,0.5),rgba(150,201,61,1));
+	border-radius:5rem;
+	margin-bottom:2rem;
+}
+.efty {
+	margin-top:1.5rem;
+	
+	
+}
+
+
+.lo-img11 {
+	width:6rem;
+	height:7rem;
+	float:left;
+}
+
+.anty {
+	overflow:hidden;
+	
+}
+.an2,.an4,.an5 {
+	margin-bottom:3rem;
+}
+.Short-intro{
+	overflow:hidden;
+}
+.an277{
+	margin-top:5rem;
+}
+
+.mar-b {
+	margin-bottom:10rem;
+}
+  
+/*==============================*/
+/*        Short-intro end       */
+/*==============================*/
+
+  
+/*==============================*/
+/*        full intro start      */
+/*==============================*/
+/* .full { */
+	/* background:linear-gradient(rgba(191, 212, 47, 0.3),rgba(191, 212, 47, 0.3)),url(lampbag2.jpg); */
+	/* background:#BFD42F; */
+	/* background-repeat:no-repeat; */
+	/* background-size:cover; */
+	/* background-position: cneter center; */
+	/* background-attachment:fixed;  */
+	
+/* } */
+/* .f-intro1 { */
+	/* overflow:hidden; */
+	/* margin-top:6rem; */
+	
+/* } */
+/* .full-imgsize { */
+	/* width:500px; */
+	/* height:auto; */
+	
+/* } */
+/* .full-logoimg { */
+	/* float:left; */
+/* } */
+/* .full-into-text  { */
+	/* overflow:hidden; */
+	/* padding:1rem; */
+	/* color:#FFF; */
+	/* text-align:justify; */
+	/* background:linear-gradient(rgba(191, 212, 47, 0.7),rgba(191, 212, 47, 0.7)); */
+	/* border-radius:.4rem; */
+	/* font-size:1.6rem; */
+	/* height:657px; */
+/* } */
+
+
+/*==============================*/
+/*         devlopar start      */
+/*=============================*/
+
+.db-efty {
+	background:#7f8c8d;
+	
+}
+.dev-text{
+	text-align:center;
+	font-size:2rem;
+	margin:2.5rem 0 2rem 0;
+	color:#FFF;
+	
+}
+.full-imgsize{
+	width:30rem;
+	height:auto;
+	border-radius:1rem;
+}
+.full-logoimg{
+	float:left;
+	margin-bottom:2rem;
+	
+}
+.full-into-text{
+	padding:1rem;
+	color:#fff;
+	font-family:'Titillium Web', sans-serif;
+	font-size:1.5rem;
+	overflow:hidden;
+	text-align:justify;
+}
+
+/*==============================*/
+/*         devlopar end         */
+/*=============================*/
+
+/*==============================*/
+/*         footer   start      */
+/*=============================*/
+
+.full-footer{
+	background:#111111;
+	height:25rem;
+}
+
+.footer-text {
+	margin-top:5rem;
+	font-size:4rem;
+	color:#FBFEFF;
+	text-align:center;
+}
+.footer-home ul li {
+	display:inline-block;
+	text-align:center;
+	margin:2rem 0 2rem 1rem;
+}
+.footer-home {
+	text-align:center;
+}
+.footer-home ul li a{
+	text-decoration:none;
+	font-size:1.3rem;
+	color:#7E7F82;
+	text-transform:uppercase;
+}
+
+.foter-fontosam {
+	
+	/* letter-spacing:1rem; */
+	text-align:center;
+	font-size:1.6rem;
+	margin-top:2rem;
+	
+}
+.foter-fontosam a{
+	color:#B0DD86;
+	border:1px solid #B0DD86;
+	border-radius:50%;
+	padding:0.5rem 1.2rem;
+	margin:0 .6rem;
+    
+}
+.foter-fontosam a:hover{
+	background:#7f8c8d;
+}
+.footer-home a:hover{
+	color:#B0DD86;
+}
+.foter-textn p {
+	color:#4B4A4C;
+	font-family:'Titillium Web', sans-serif;
+	text-align:center;
+	margin-top:3rem;
+}
+.foter-textn span{
+	color:#B0DD86;
+}
+/*==============================*/
+/*         footer end           */
+/*=============================*/
+
